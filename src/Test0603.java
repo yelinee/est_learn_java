@@ -310,5 +310,13 @@ public class Test0603 {
     //      default:
     //        System.out.println("일치하는 항목이 없습니다.");
     //    }
+
+    int passScore = 60;
+    int myScore = 75;
+    if (myScore >= passScore) {
+      System.out.println("합격");
+    } else {
+      System.out.println("불합격");
+    }
   }
 }
