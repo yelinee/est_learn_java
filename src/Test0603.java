@@ -311,12 +311,106 @@ public class Test0603 {
     //        System.out.println("일치하는 항목이 없습니다.");
     //    }
 
-    int passScore = 60;
-    int myScore = 75;
-    if (myScore >= passScore) {
-      System.out.println("합격");
-    } else {
-      System.out.println("불합격");
-    }
+    //    int passScore = 60;
+    //    int myScore = 75;
+    //    if (myScore >= passScore) {
+    //      System.out.println("합격");
+    //    } else {
+    //      System.out.println("불합격");
+    //    }
+
+    //    int passScore = 60;
+    //    int myScore = 75;
+    ////    String result = (myScore >= passScore) ? "합격" : "불합격";
+    //    System.out.println(myScore >= passScore ? "합격" : "불합격");
+        char grade = 'ㄴ';
+        switch (grade) {
+          case 'A':
+            System.out.println("Excellent");
+            break;
+          case 'B':
+            System.out.println("Good");
+            break;
+          case 'C':
+            System.out.println("Average");
+            break;
+          case 'D':
+            System.out.println("Below Average");
+            break;
+          case 'F':
+            System.out.println("Fail");
+            break;
+          default:
+            System.out.println("잘못된 등급입니다.");
+        }
+
+    //    char operator = '+';
+    //    int num1 = 10;
+    //    int num2 = 20;
+    //    switch (operator) {
+    //      case '+':
+    //        System.out.println(String.format("%s %s %s = %s", num1, operator, num2, num1 + num2));
+    //        break;
+    //      case '-':
+    //        System.out.println(String.format("%s %s %s = %s", num1, operator, num2, num1 - num2));
+    //        break;
+    //      case '*':
+    //        System.out.println(String.format("%s %s %s = %s", num1, operator, num2, num1 * num2));
+    //        break;
+    //      case '/':
+    //        System.out.println(String.format("%s %s %s = %s", num1, operator, num2, (double)num1 /
+    // num2));
+    //        break;
+    //      default:
+    //        System.out.println("잘못된 연산자입니다.");
+    //    }
+    //    String color = "red";
+    //    switch(color){
+    //      case "red":
+    //        System.out.println("Apple");
+    //        break;
+    //      case "green":
+    //        System.out.println("Grass");
+    //        break;
+    //      case "blue":
+    //        System.out.println("Sky");
+    //        break;
+    //      default:
+    //        System.out.println("일치하는 값이 없습니다.");
+    //    }
+    //    int score = 78;
+    //    switch (score / 10) {
+    //      case 9:
+    //        System.out.println("A");
+    //        break;
+    //      case 8:
+    //        System.out.println("B");
+    //        break;
+    //      case 7:
+    //        System.out.println("C");
+    //        break;
+    //      case 6:
+    //        System.out.println("D");
+    //        break;
+    //      default:
+    //        System.out.println("F");
+    //    }
+//    String language = "Java";
+//    switch (language) {
+//      case "Java":
+//        System.out.println("Java는 객체지향언어입니다.");
+//        break;
+//      case "Python":
+//        System.out.println("Python은 여러 라이브러리를 가지고 있습니다.");
+//        break;
+//      case "C++":
+//        System.out.println("C++은 게임 개발에 사용됩니다.");
+//        break;
+//      case "JavaScript":
+//        System.out.println("JavaScript은 프론트앤드의 유일한 언어입니다.");
+//        break;
+//      default:
+//        System.out.println("일치하는 항목이 없습니다.");
+//    }
   }
 }
